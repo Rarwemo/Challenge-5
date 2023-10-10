@@ -98,9 +98,9 @@ public class GameManagerX : MonoBehaviour
          timeCountDown.SetText("Time: " + Mathf.Round(timer));
          if (timer < 0) 
 
-        {
-            GameOver();
-        }
+              {
+                   GameOver();
+              }
     }
    }
 
